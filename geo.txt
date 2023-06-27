@@ -1,83 +1,92 @@
 1: Basic tools of Map info professional (show us each of them and review them)  
-Answer: Mapinfo includes several basic tools : 1->>Pro 2->>Home 3->>Table 4->>Map-Spatial 5->>Layout-Raster 
+Answer: MapInfo includes several basic tools: Pro > Home >Table > Map-Spatial > Layout-Raster 
 
-2: File creation, tab file and it's features , workspace , its creation and management; 
-Answer:
+2: File creation, tab file and it's features, workspace, its creation and management.
+Answer: Tab Files are native file format for MapInfo Pro.  Can be created by clicking on New Table 
+Features: Can store Spatial Data, Attributes, Geometry, Layers, Styles and Symbolization, Databases.
+A workspace is a list of all the tables, windows, and settings you are using, stored in a file with the extension (file extension *.wor and *.mws). After you're done editing you can save your work in a workspace which can be later opened.  Managing your workspace can be done by adding or removing tab files, layers, rearranging layers and tab files and finally saving those new changes. 
 
-3: Connecting the raster image to the coordinate grid, selecting the projection , registering the raster map and correcting errors; 
-Answer:
+3: Connecting the raster image to the coordinate grid, selecting the projection, registering the raster map and correcting errors. 
+Answer: To connect your raster image to the coordinate grid you need to do georeferencing.
+When you register a raster map image, you enter map coordinates (e.g., longitude/latitude degrees), and you indicate which locations on the image correspond to those coordinates. You must register each image, so that it can perform geographic calculations.
+After registering you may have some error values. These values should be kept as small as possible to get the best results. Large error values will cause misalignments.
 
-4: Crating a database ; Table structure, its elements , addition and categorization of tables; 
-Answer: Table >> New table >> (Open new Mapper and create new is checked here) clicking on Create >> clicking on Add Field button and naming the firs field >> Naming the second field and type of second field is float >> Adding another field named as(m3) choosing type as character >>  Adding another field named as(m4) choosing type as decimal >> Adding another field named as(m5) choosing type as integer >> Clicking to create >> Choosing file name and choosing the proper Folder to be saved in >>Clicking on Save button
-Elements of table structure is : Fields , Type , Remove fields , Add field , Up & Down options , Field information (such as name , type , width); 
-Addition and Categorization of table : Add field , Remove field; 
+4: Creating a database; Table structure, its elements, addition and categorization of tables. 
+Answer: In MapInfo you can connect to a remote database linked to a table or you can also create a new table.
+Table >> New table >> Create >> Add Field button and adding the required fields >> Click Create >> Choose a file name and choose a proper Folder >> Save. 
+Elements of table: Fields (Name, Type and width), Remove fields, Add field, Up & Down options.
+Categorization of table: Tables can be categorized into tree view.
+
+5: Layer control panel, working with explorer, arranging and managing layers. 
+Answer: In explorer (on the left side) there are 2 sample windows (Cosmetic layer and table layer) >> above it there are 2 Icons for adding layers and removing layers also to arrange the layers up and down >> There are 3 options to the right of each field such as (edit table, select table, automatic labels) 
 
   
 
-  
+6: Use of topographic maps, use of online built-in bases (Bing aerial, Hybrid, Geo map streets, Road) in the digitization process 
+Answer: Topographic maps are in-dept representations of the Earth's surface, showing various physical features.
+To find (Bing aerial, Hybrid, Geo map streets, Road): Go to Home or Map tab >> Click Open >> You can find these maps over there.
 
-5: Layer control panel , working with explorer , arranging and managing layers ; 
-Answer: Finding expelorer(the left side window) there is as sample 2 windows (Cosmetic layer and table layer) >> above it there is two Icons for Add layer and remove layer also Move layers up and down options >> There is 3 options right side of each field such as (edit table, select table , automatic labels) 
+7. Digitization process, Creation of map of point objects, selection of conditional signs, management, creation of cartographic image using point objects. Calculating location using X & Y coordinates. 
+Answer: Go to Spatial >> Style >> Choose the required style and colour then press OK >> choose to insert and then draw. 
+Creation of map of point objects: Spatial >> click on mouse option >> double click on any point on the map >> click OK for the windows. 
+Selection of signs can be done by a few methods such as selection by query and selection by spatial query.
+Calculating location using X & Y coordinates: Go to Map >> Map options >> display coordinates (choosing degrees, minute, second) also change coordinate units to degrees and click OK >> then go to insert and choose a point to create a point anywhere on the map >> Click on the points and its coordinate windows will be shown.
 
-  
-
-6: Use of topographic maps , use of online built_in bases (Bing aerial , Hibrid , Geo map streets, Road) in the digitization process 
-Answer: In Table>> Clicking Map >> Clicking Table >> choosing the proper folder and file in the new windows 
-For finding (Bing aerial , Hibrid , Geo map streets, Road) : Go to Map >> Clicking Open >> We will see these options here; 
-
-
-7. Digitization process, Creation of map of point objects, selection of conditional signs , management , creation of cartographic image using point objects . calculating     location using X & Y coordinates. 
-Answer: Go to Spatial >> Style >> Format Style >> Choose a font >> Choose a symbol and color then press on OK button >> choose insert and then we can draw; 
-Creation of map of point objects: Spatial >> click on mouse option >> double click on any point on the map >> click OK for the windows; 
-Calculation location using X & Y coordinates: Going to Map >> Map options >> display coordinates(choosing : degrees , minute , second) also changing coordinate units to degrees in this window and clicking OK>> then we can go to insert and choosing point to make a point on any spot on the map >> Double click on the points that we put and it's coordinate windows will pop up; 
-
-8. creating greed using automated and custom cartographic tools  
-Answer:
+8. creating grid using automated and custom cartographic tools  
+Answer: Automated grids are provided by MapInfo and can be created based on some specific parameters.
+Custom carto grids can be manually created by using drawing and editing tools such as polylines or polygons. Assign labels or ids for referencing.
  
-
-9. creating a map of linear objects, selecting, and managing linear conditional marks, creating a cartographic image using linear objects, calculating lengths using a        simple method 
-Answer: Spatial >> click on insert >> linear style >> change width and colors >> insert polyline or line. After draw and use it click on the line and it is calculated the total length in mile. For kilometer should go to map tab then click on map operations and change distance units to kilometer    
+9. creating a map of linear objects, selecting, and managing linear conditional marks, creating a cartographic image using linear objects, calculating lengths using a simple method 
+Answer: Open the Spatial menu>> click on insert >> linear style >> change the widths and colours >> insert polyline or line. Then draw with it after usage click on the line and it calculates the total length in mile. For kilometre go to Map tab and click on map operations and change distance units to kilometre.
 
 10. Creating a map of areal objects, selecting, and managing area conditional signs, creating a cartographic image using areal objects, calculating areas using a simple method  
-Answer: Choose polyline from spatial tap then change the style, background, and color >> insert polygon then drawing on the map >> when selecting the area of polygon, we can see the total area and 	total parameters, also we can see Elis cape object for seeing radius x, y 
+Answer: Choose polygons from spatial tab and change the style, background, and colour >> insert the polygon and draw >> select the area of the polygon, the total area and total parameters will be shown, also we can see the object for checking out the x and y radius.
 
-11. The use of labels and fonts and creation of mixed geoimges , it is management under conditions of different scales and thematic information  
-Answer:
- 
-
- 
+11. The use of labels and fonts and creation of mixed geo images, it is management under conditions of different scales and thematic information  
+Answer: You can add labels and fonts to provide more information about geographic features. To add labels, click and make the layer editable >> Then go to the labels tab and you can configure your labels there.
+You can overlay multiple thematic layers to create a mixed geo image on a single map. This can be done by rearranging the layers and adjusting the transparency/visibility of each layer.
+You can also manage these through various methods such as layer grouping, map layout and templates, dynamic thematic mapping etc.
 
 12. Use snap, set largest, Erase, spilt options to edit the image during the digitalization process 
-Answer: On spatial tab click on set target then we can select the target in map >> click on combine  
-	And after work we can choose on clear target, 
-	Click on edit option then hold control + R and we can edit our selection in map  
+Answer: In spatial tab click on set target then select the areas on map >> click on combine/split to combine all the selections or to split the selected target. To delete the selected portions, click on erase. To edit select the target and press CTRL + R this makes all the nodes editable.
 
 13. Table options, it is change, adding information, calculation of exact distances, areas, and basics of statistical processing  
-Answer: Click  on table map then click on tables >> click on modify structure click on ok After that click on update column select table to update then we choose one table  
-	We can select second option column to update for changing column and choose value And this will be calculated all of that 
+Answer: Click on table map then select table dropdown >> click on modify structure after modification confirm it by pressing OK. 
+For calculations Click on Update Column select the table and column to update and choose another table (table to receive values from). We can also click on assist for additional help to create expressions or functions.
 
 14. Data bank management arrangement and sorting of information for calculation and thematic mapping  
-Answer: Click on table tab then on table click modify table >> click add field (here we can choose which 	information we need, or which one will be delete) after that click advanced pack and then we can choose pack table from it  
+Answer: To manage tables go to the Table tab then click on modify table. Here you can add/remove a field, sort or arrange the fields. You can also check out advanced pack options to compress the tables, so it takes up less disk space.
 
-15.compilation of thematic map preparation of cartograms create thematic maps options 
-Answer:
- 
+15. Compilation of thematic map preparation of cartograms create thematic maps options 
+Answer: To compile thematic maps: Choose the appropriate thematic mapping method >> Select the attribute data you want to represent on the map >> Determine the classification method >> Customize the appearance of the thematic map >> Consider adding additional cartographic elements.
+Preparation of Cartograms includes choosing a base map, using algorithms for calculation of values, labeling for clarity, include legends or scale, layer control, query and selection.
 
 16.create thematic map, preparation carto diagrams, create thematic map options 
-Answer:
- 
+Answer: Go to the Map tab and select “Create Thematic Map” >> Select the required thematic map: such as Graduated Symbols, Graduated Colors, Dot Density etc.  >> “Create Map” to generate the thematic map. 
+Preparation of Cartograms includes choosing a base map, using algorithms for calculation of values, labeling for clarity, include legends or scale, layer control, query and selection.
 
 17.layout and management of labels on the thematic map, selection of style, size and location, label option 
-Answer:
-  
+Answer: After creation of thematic map, select the label and go to the labels tab, you'll find various options to configure the appearance and placement of labels. >> Label Styles, Label Placement, Label Size and Orientation, Label Collision Detection, Label Expression, Label Filtering 
 
-18.changing forms, using universal translator option, converting Esri products and converting tab files to Esri format compatible file 
-Answer:
+18. changing forms, using universal translator option, converting Esri products and converting tab files to Esri format compatible file 
+Answer: Changing forms: Reshaping Objects, Creating New Objects, Buffering, Splitting and Merging Objects. 
+To use the Universal Translator: Home menu >> Select Universal translator >> select translate >> fill in the necessary requirements suck as source/format of data. Confirm the by clicking OK.
+To change the format to Esri and change tab files to Esri format do the same steps as mentioned above but select TAB file as source file format and choose the Esri Shapefile format as the destination format. 
  
-
 19.using the layout option when creating a thematic map, it is varieties and the advantage of each 
-Answer:
-  
+Answer: MapInfo's layout option allows you to organize and style various map components, such as the map itself, the legend, the title, the scale bar, and other layout features.
+There are no predefined layouts in MapInfo. So, layouts can flexible and can be customized based on the needs. Some layouts could be. 
+Grid Layout: This involves arranging the elements in a grid like structure. Makes it easier for comparison and analysis.
+Custom Layout: This layout provides high flexibility. As it enables you to create a layout the fits your needs.
+Normal Layout: This is a more traditional layout could include various elements such as legends, scales, arrows.
+Inset Layout: This layout includes smaller map added within a larger and bigger map.
 
 20.  complication of map compaction, decoration, and graphic design and graphic design processing, place legend and other cartographic elements (scales, orientation of horizon sides) 
-Answer:
+Answer: Map Compaction: involves optimizing the layout of map elements by rearranging or reordering them so that it looks visually appealing. 
+Decoration: includes adding visual elements to enhance the appearance and visual appeal of the map. 
+Graphic design techniques: can be applied to maps to point out specific features and POIs of the map. 
+Graphic design processing: Third party software can be used for graphic design aspect. 
+Placement of Cartographic Elements: 
+Proper positioning of the scale bar
+Add references to indicate the orientation of horizon sides such as north arrows.
+
